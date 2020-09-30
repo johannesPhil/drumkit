@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <div class="keys">
+      <div data-key="65" class="key" onclick="beat(65)">
+        <kbd>A</kbd>
+        <span class="sound">Clap</span>
+      </div>
+      <div data-key="83" class="key" onclick="beat(83)">
+        <kbd>S</kbd>
+        <span class="sound">Hihat</span>
+      </div>
+      <div data-key="68" class="key" onclick="beat(68)">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key" onclick="beat(70)">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key" onclick="beat(71)">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div data-key="72" class="key" onclick="beat(72)">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div data-key="74" class="key" onclick="beat(74)">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key" onclick="beat(75)">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="76" class="key" onclick="beat(76)">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </div>
+
+    <audio preload="none" data-key="65" src="assets/sounds/clap.wav"></audio>
+    <audio preload="none" data-key="83" src="assets/sounds/hihat.wav"></audio>
+    <audio preload="none" data-key="68" src="assets/sounds/kick.wav"></audio>
+    <audio preload="none" data-key="70" src="assets/sounds/openhat.wav"></audio>
+    <audio preload="none" data-key="71" src="assets/sounds/boom.wav"></audio>
+    <audio preload="none" data-key="72" src="assets/sounds/ride.wav"></audio>
+    <audio preload="none" data-key="74" src="assets/sounds/snare.wav"></audio>
+    <audio preload="none" data-key="75" src="assets/sounds/tom.wav"></audio>
+    <audio preload="none" data-key="76" src="assets/sounds/tink.wav"></audio>
+    <script src="drum.js"></script>
+  </body>
+</html>
